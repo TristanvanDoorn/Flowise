@@ -18,7 +18,7 @@
         "clsx": "^1.1.1",
         "flowise-embed": "*",
         "flowise-embed-react": "*",
-        "flowise-react-json-view": "*",
+        "flowise-react-json-view": "^1.21.3",
         "formik": "^2.2.6",
         "framer-motion": "^4.1.13",
         "history": "^5.0.0",
@@ -49,6 +49,16 @@
         "remark-math": "^5.1.1",
         "socket.io-client": "^4.6.1",
         "yup": "^0.32.9"
+
+
+    },
+    "overrides": {
+      "flowise-react-json-view": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+      }
+        
+
     },
     "scripts": {
         "start": "craco start",
